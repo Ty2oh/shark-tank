@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tech_skills_needed" label="tech skills needed " language="en" table="x_cdltd_shark_tank_cage_maintenance">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tech_skills_needed</element>
+            <help/>
+            <hint/>
+            <label>tech skills needed </label>
+            <language>en</language>
+            <name>x_cdltd_shark_tank_cage_maintenance</name>
+            <plural>tech skills needed s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-01 20:13:10</sys_created_on>
+            <sys_id>eab10e4e247781107f446d46826a1c05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tech skills needed</sys_name>
+            <sys_package display_value="shark tank" source="x_cdltd_shark_tank">7336b102247781107f446d46826a1ca2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="shark tank">7336b102247781107f446d46826a1ca2</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_shark_tank_cage_maintenance_tech_skills_needed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-01 20:13:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

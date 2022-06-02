@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="shark cage" max_length="40" name="x_cdltd_shark_tank_shark_bait" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="cage size" max_length="40" name="cage_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Large"/>
+                <element inactive_on_update="false" label="Medium"/>
+                <element inactive_on_update="false" label="Small"/>
+                <element inactive_on_update="false" label="XLarge"/>
+            </choice>
+        </element>
+        <element label="material of the cage" max_length="4000" name="material_of_the_cage" type="conditions"/>
+        <element choice="1" label="number of cages in stock " max_length="40" name="number_of_cages_in_stock" type="integer">
+            <choice/>
+        </element>
+        <element label="number of divers per cage" max_length="40" name="number_of_divers_per_cage" type="integer"/>
+    </element>
+</database>

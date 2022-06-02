@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="cage maintenance" max_length="40" name="x_cdltd_shark_tank_cage_maintenance" sizeclass="0" type="collection">
+        <element label="how often cages are maintenanced " max_length="40" name="how_often_cages_are_maintenanced" type="glide_date_time"/>
+        <element label="labor expenses " max_length="20" name="labor_expenses" type="price"/>
+        <element label="tech skills needed " max_length="80" name="tech_skills_needed" reference="sys_user" type="reference"/>
+        <element label="tech  who completed" max_length="32" name="tech_who_completed" reference="sys_user" type="reference"/>
+        <element label="what was done in maintenance" max_length="4000" name="what_was_done_in_maintenance" type="journal"/>
+        <index name="index">
+            <element name="tech_who_completed"/>
+        </index>
+    </element>
+</database>
